@@ -1,0 +1,158 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: #fff5eb;
+  text-align: center;
+}
+
+/* HEADER */
+header {
+  background-color: #ff7a00;
+  color: white;
+  padding: 40px 20px;
+}
+
+/* TÍTULO PRINCIPAL */
+.titulo-principal {
+  font-size: 3.5em;
+}
+
+/* CONTENEDOR */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* MENÚ */
+.nav {
+  margin-top: 20px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.menu li a {
+  text-decoration: none;
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* SECCIÓN INICIO */
+#inicio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* TÍTULO */
+#inicio h2 {
+  grid-column: 1 / -1;
+  font-size: 28px;
+}
+
+/* TEXTO DEBAJO DEL TÍTULO */
+.descripcion-inicio {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #555;
+}
+
+/* CARD */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* IMAGEN */
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* TEXTO */
+.card h3 {
+  margin-top: 10px;
+}
+
+.card p {
+  margin: 10px;
+  font-size: 14px;
+}
+
+/* BOTÓN */
+.btn {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ff7a00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* SECCIONES */
+.main {
+  margin-top: 40px;
+}
+
+/* IMÁGENES DE SECCIÓN */
+.img-seccion {
+  width: 60%;
+  max-width: 400px;
+  margin: 15px auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* ANIMACIÓN BOTONES */
+.btn {
+  transition: all 0.3s ease;
+}
+
+/* HOVER */
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #e05500;
+}
+
+/* CLICK */
+.btn:active {
+  transform: scale(0.95);
+}
+
+/* ANIMACIÓN BOTONES DEL MENÚ */
+.menu li a {
+  transition: all 0.3s ease;
+}
+
+/* HOVER (cuando pasas el mouse) */
+.menu li a:hover {
+  transform: translateY(-4px) scale(1.05);
+  background-color: #e05500;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* CLICK (cuando presionas) */
+.menu li a:active {
+  transform: scale(0.95);
+}

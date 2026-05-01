@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Snack Social</title>
+
+  <!-- TIPOGRAFÍA -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <h1 class="titulo-principal">Snack Social</h1>
+      <p>Comparte tus antojos más deliciosos 😋</p>
+    </div>
+  </header>
+
+  <!-- MENÚ -->
+  <nav class="nav">
+    <ul class="menu">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Explorar</a></li>
+      <li><a href="#">Tendencias</a></li>
+      <li><a href="#">Publicar</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+
+    <!-- INICIO -->
+    <section id="inicio">
+      <h2>Snacks populares</h2>
+
+      <!-- NUEVO TEXTO -->
+      <p class="descripcion-inicio">
+        Descubre los snacks más deliciosos y populares que están conquistando a todos los amantes de la comida.
+      </p>
+
+      <div class="card">
+        <img src="Papas fritas.jpg" alt="Papas con queso">
+        <h3>Papas con queso</h3>
+        <p>Crujientes, llenas de queso y puro sabor.</p>
+        <button class="btn">Me gusta</button>
+      </div>
+
+      <div class="card">
+        <img src="hamburguesa.jpg" alt="Hamburguesa">
+        <h3>Hamburguesa doble</h3>
+        <p>Carne jugosa con queso derretido.</p>
+        <button class="btn">Me gusta</button>
+      </div>
+
+      <div class="card">
+        <img src="Nachos.jpg" alt="Nachos">
+        <h3>Nachos</h3>
+        <p>Con queso y jalapeños </p>
+        <button class="btn">Me gusta</button>
+      </div>
+    </section>
+
+    <!-- EXPLORAR -->
+    <section class="main">
+      <h2>Explora más comida</h2>
+
+      <img src="pasta.jpg" alt="Explorar comida" class="img-seccion">
+
+      <p>Aquí puedes descubrir nuevos snacks deliciosos.</p>
+    </section>
+
+    <!-- TENDENCIAS -->
+    <section class="main">
+      <h2>Tendencias</h2>
+
+      <img src="snaks.jpg" alt="Comida en tendencia" class="img-seccion">
+
+      <p>Los platillos más populares del momento</p>
+    </section>
+
+    <!-- PUBLICAR -->
+    <section class="main">
+      <h2>Publica tu snack</h2>
+
+      <form>
+        <input type="text" placeholder="Nombre del snack" required>
+        <textarea placeholder="Descripción deliciosa 😋"></textarea>
+        <input type="file">
+        <button class="btn">Publicar</button>
+      </form>
+    </section>
+
+  </div>
+
+</body>
+</html>
